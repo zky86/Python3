@@ -16,7 +16,7 @@ cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
 # 数据
 base_info = {
   "manufacturer": "VMware, Inc.",
-  "pod_name": "123",
+  "pod_name": "88",
   "sn": "VMware-56 4d 2b 4b 91 1e 48 15-5b d2 73 9c ec 98 da 22",
   "host_name": "qfedu.com",
   "kernel": "3.10.0-957.el7.x86_64",
