@@ -3,7 +3,9 @@
 # Python面向对象：类，类的方法，类方法，静态方法
 
 class Person(object):
+    __test = True
     def __init__(self):
+
         print('init')
 
     @staticmethod
@@ -19,6 +21,7 @@ class Person(object):
 
     # 一般类的方法
     def hobby(self, hobby):
+        print(self.__test)
         print(hobby)
 
 
