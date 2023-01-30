@@ -40,7 +40,7 @@ sql = '''
 # 注意这里不是 Python 的字符串格式化，所以传值的时候不需要使用 %
 # cursor.execute(sql, ("v1", "v2"))
 cursor.execute(sql, tuple(base_info.values()))
-
+cursor.execute(sql, tuple(base_info.values()))
 # 数据库中受影响的行数
 print(cursor.rowcount)
 

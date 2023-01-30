@@ -1,0 +1,1216 @@
+[2022-09-07 14:26:46,409.409] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:26:46,504.504] ich_representative_project.py -> <module> line:22 [ERROR] : 创建数据库连接池失败:module 'common.utils' has no attribute 'config_to_okdc_ich'
+[2022-09-07 14:29:39,202.202] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:29:39,337.337] ich_representative_project.py -> <module> line:22 [ERROR] : 创建数据库连接池失败:module 'common.utils' has no attribute 'config_from_okayxx'
+[2022-09-07 14:31:09,208.208] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:31:09,343.343] ich_representative_project.py -> <module> line:22 [ERROR] : 创建数据库连接池失败:module 'common.utils' has no attribute 'config_from_okayxx'
+[2022-09-07 14:31:29,612.612] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:31:29,787.787] ich_representative_project.py -> <module> line:22 [ERROR] : 创建数据库连接池失败:module 'common.utils' has no attribute 'config_from_okdc_communal'
+[2022-09-07 14:31:38,476.476] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:31:38,652.652] ich_representative_project.py -> <module> line:22 [ERROR] : 创建数据库连接池失败:module 'common.utils' has no attribute 'config_from_okdc_communal'
+[2022-09-07 14:32:38,012.012] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:32:38,227.227] ich_representative_project.py -> main line:44 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:32:38,228.228] ich_representative_project.py -> main line:53 [INFO] : 开启 con_to 事务
+[2022-09-07 14:32:38,228.228] ich_representative_project.py -> main line:54 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:32:38,229.229] ich_representative_project.py -> clean_data line:37 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:32:38,258.258] ich_representative_project.py -> transform line:76 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:32:38,262.262] ich_representative_project.py -> transform line:89 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:32:38,263.263] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:32:38,277.277] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,278.278] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:32:38,290.290] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,290.290] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:32:38,303.303] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,303.303] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:32:38,316.316] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,316.316] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:32:38,328.328] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,329.329] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:32:38,340.340] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,340.340] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:32:38,353.353] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,353.353] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:32:38,366.366] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,367.367] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:32:38,379.379] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,379.379] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:32:38,391.391] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,392.392] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:32:38,404.404] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,404.404] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:32:38,417.417] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,417.417] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:32:38,430.430] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,430.430] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:32:38,443.443] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,443.443] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:32:38,456.456] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,456.456] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:32:38,469.469] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,470.470] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:32:38,483.483] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,484.484] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:32:38,496.496] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,497.497] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:32:38,510.510] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,511.511] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:32:38,523.523] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,524.524] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:32:38,537.537] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,538.538] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:32:38,550.550] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,551.551] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:32:38,563.563] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,564.564] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:32:38,576.576] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,577.577] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:32:38,589.589] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,589.589] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:32:38,602.602] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,602.602] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:32:38,614.614] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,614.614] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:32:38,627.627] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,627.627] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:32:38,640.640] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,640.640] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:32:38,653.653] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,653.653] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:32:38,666.666] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,667.667] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:32:38,680.680] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,680.680] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:32:38,693.693] ich_representative_project.py -> prepare line:135 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:32:38,693.693] ich_representative_project.py -> prepare line:136 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:32:38,695.695] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,695.695] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:32:38,708.708] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,708.708] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:32:38,722.722] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,723.723] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:32:38,735.735] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,736.736] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:32:38,748.748] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,748.748] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:32:38,761.761] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,761.761] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:32:38,773.773] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,774.774] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:32:38,786.786] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,787.787] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:32:38,799.799] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,799.799] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:32:38,811.811] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,812.812] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:32:38,824.824] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:32:38,824.824] ich_representative_project.py -> main line:64 [INFO] : 提交 con_to 事务
+[2022-09-07 14:33:07,099.099] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:33:07,308.308] ich_representative_project.py -> main line:44 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:33:07,309.309] ich_representative_project.py -> main line:53 [INFO] : 开启 con_to 事务
+[2022-09-07 14:33:07,309.309] ich_representative_project.py -> main line:54 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:33:07,310.310] ich_representative_project.py -> clean_data line:37 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:33:07,437.437] ich_representative_project.py -> transform line:76 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:33:07,439.439] ich_representative_project.py -> transform line:89 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:33:07,439.439] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:33:07,453.453] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,453.453] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:33:07,466.466] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,466.466] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:33:07,478.478] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,479.479] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:33:07,491.491] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,492.492] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:33:07,504.504] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,504.504] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:33:07,517.517] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,517.517] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:33:07,530.530] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,530.530] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:33:07,543.543] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,544.544] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:33:07,557.557] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,557.557] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:33:07,570.570] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,570.570] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:33:07,584.584] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,585.585] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:33:07,598.598] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,598.598] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:33:07,612.612] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,612.612] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:33:07,625.625] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,626.626] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:33:07,638.638] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,639.639] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:33:07,651.651] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,652.652] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:33:07,664.664] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,665.665] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:33:07,677.677] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,678.678] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:33:07,689.689] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,690.690] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:33:07,703.703] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,703.703] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:33:07,716.716] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,717.717] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:33:07,729.729] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,729.729] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:33:07,742.742] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,742.742] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:33:07,755.755] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,756.756] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:33:07,769.769] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,769.769] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:33:07,782.782] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,782.782] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:33:07,795.795] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,795.795] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:33:07,809.809] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,809.809] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:33:07,822.822] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,822.822] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:33:07,834.834] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,835.835] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:33:07,847.847] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,847.847] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:33:07,860.860] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,860.860] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:33:07,872.872] ich_representative_project.py -> prepare line:135 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:33:07,873.873] ich_representative_project.py -> prepare line:136 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:33:07,874.874] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,874.874] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:33:07,886.886] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,887.887] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:33:07,899.899] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,899.899] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:33:07,911.911] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,912.912] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:33:07,924.924] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,924.924] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:33:07,937.937] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,937.937] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:33:07,950.950] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,950.950] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:33:07,963.963] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,963.963] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:33:07,976.976] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,976.976] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:33:07,989.989] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:07,989.989] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:33:08,003.003] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:08,003.003] ich_representative_project.py -> main line:64 [INFO] : 提交 con_to 事务
+[2022-09-07 14:33:25,838.838] ich_representative_project.py -> <module> line:14 [INFO] : 创建数据库连接池
+[2022-09-07 14:33:26,051.051] ich_representative_project.py -> main line:44 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:33:26,052.052] ich_representative_project.py -> main line:53 [INFO] : 开启 con_to 事务
+[2022-09-07 14:33:26,053.053] ich_representative_project.py -> main line:54 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:33:26,053.053] ich_representative_project.py -> clean_data line:37 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:33:26,093.093] ich_representative_project.py -> transform line:76 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:33:26,095.095] ich_representative_project.py -> transform line:89 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:33:26,095.095] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:33:26,109.109] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,109.109] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:33:26,122.122] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,122.122] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:33:26,133.133] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,134.134] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:33:26,146.146] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,147.147] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:33:26,159.159] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,159.159] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:33:26,172.172] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,172.172] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:33:26,185.185] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,185.185] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:33:26,198.198] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,198.198] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:33:26,211.211] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,211.211] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:33:26,223.223] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,224.224] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:33:26,236.236] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,236.236] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:33:26,248.248] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,248.248] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:33:26,260.260] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,261.261] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:33:26,274.274] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,274.274] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:33:26,287.287] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,287.287] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:33:26,300.300] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,301.301] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:33:26,313.313] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,314.314] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:33:26,327.327] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,327.327] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:33:26,340.340] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,341.341] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:33:26,353.353] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,353.353] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:33:26,367.367] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,368.368] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:33:26,380.380] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,381.381] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:33:26,394.394] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,395.395] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:33:26,407.407] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,408.408] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:33:26,420.420] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,420.420] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:33:26,433.433] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,433.433] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:33:26,445.445] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,446.446] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:33:26,458.458] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,458.458] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:33:26,471.471] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,471.471] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:33:26,484.484] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,485.485] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:33:26,498.498] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,498.498] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:33:26,510.510] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,511.511] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:33:26,523.523] ich_representative_project.py -> prepare line:135 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:33:26,524.524] ich_representative_project.py -> prepare line:136 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:33:26,525.525] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,526.526] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:33:26,539.539] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,539.539] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:33:26,552.552] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,552.552] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:33:26,565.565] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,566.566] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:33:26,579.579] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,579.579] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:33:26,591.591] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,592.592] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:33:26,604.604] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,604.604] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:33:26,617.617] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,617.617] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:33:26,629.629] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,629.629] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:33:26,641.641] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,642.642] ich_representative_project.py -> transform line:102 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:33:26,654.654] ich_representative_project.py -> transform line:118 [INFO] : <<<<<<
+[2022-09-07 14:33:26,654.654] ich_representative_project.py -> main line:64 [INFO] : 提交 con_to 事务
+[2022-09-07 14:45:44,259.259] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 14:45:44,471.471] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:45:44,472.472] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 14:45:44,473.473] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:45:44,473.473] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:45:44,566.566] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:45:44,567.567] ich_representative_project.py -> transform line:90 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:45:44,568.568] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:45:44,581.581] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,582.582] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:45:44,594.594] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,595.595] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:45:44,607.607] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,607.607] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:45:44,620.620] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,620.620] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:45:44,633.633] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,633.633] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:45:44,646.646] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,647.647] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:45:44,658.658] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,659.659] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:45:44,671.671] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,672.672] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:45:44,684.684] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,685.685] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:45:44,698.698] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,698.698] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:45:44,711.711] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,711.711] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:45:44,724.724] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,725.725] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:45:44,738.738] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,739.739] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:45:44,751.751] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,752.752] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:45:44,765.765] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,765.765] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:45:44,778.778] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,778.778] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:45:44,791.791] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,791.791] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:45:44,804.804] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,804.804] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:45:44,817.817] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,817.817] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:45:44,830.830] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,830.830] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:45:44,844.844] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,844.844] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:45:44,857.857] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,857.857] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:45:44,869.869] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,869.869] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:45:44,882.882] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,882.882] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:45:44,895.895] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,896.896] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:45:44,908.908] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,909.909] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:45:44,922.922] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,922.922] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:45:44,935.935] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,936.936] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:45:44,949.949] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,949.949] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:45:44,961.961] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,962.962] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:45:44,975.975] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,975.975] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:45:44,988.988] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:44,988.988] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:45:45,000.000] ich_representative_project.py -> prepare line:136 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:45:45,000.000] ich_representative_project.py -> prepare line:137 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:45:45,002.002] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,002.002] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:45:45,014.014] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,014.014] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:45:45,027.027] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,028.028] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:45:45,040.040] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,040.040] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:45:45,053.053] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,053.053] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:45:45,066.066] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,066.066] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:45:45,078.078] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,079.079] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:45:45,091.091] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,092.092] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:45:45,106.106] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,106.106] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:45:45,119.119] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,119.119] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:45:45,135.135] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:45:45,136.136] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 14:46:42,056.056] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 14:46:42,263.263] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:46:42,264.264] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 14:46:42,265.265] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:46:42,265.265] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:46:42,359.359] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:46:42,361.361] ich_representative_project.py -> transform line:90 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:46:42,361.361] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:46:42,374.374] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,374.374] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:46:42,387.387] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,387.387] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:46:42,399.399] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,400.400] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:46:42,412.412] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,412.412] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:46:42,425.425] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,425.425] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:46:42,437.437] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,438.438] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:46:42,450.450] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,451.451] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:46:42,463.463] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,463.463] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:46:42,475.475] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,476.476] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:46:42,488.488] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,489.489] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:46:42,501.501] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,502.502] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:46:42,514.514] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,515.515] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:46:42,528.528] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,528.528] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:46:42,541.541] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,541.541] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:46:42,554.554] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,554.554] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:46:42,567.567] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,567.567] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:46:42,580.580] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,580.580] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:46:42,593.593] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,593.593] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:46:42,605.605] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,606.606] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:46:42,618.618] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,618.618] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:46:42,632.632] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,632.632] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:46:42,644.644] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,645.645] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:46:42,658.658] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,658.658] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:46:42,670.670] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,671.671] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:46:42,684.684] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,684.684] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:46:42,696.696] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,696.696] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:46:42,709.709] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,710.710] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:46:42,723.723] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,723.723] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:46:42,736.736] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,736.736] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:46:42,749.749] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,750.750] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:46:42,762.762] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,763.763] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:46:42,776.776] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,776.776] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:46:42,788.788] ich_representative_project.py -> prepare line:136 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:46:42,789.789] ich_representative_project.py -> prepare line:137 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:46:42,790.790] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,790.790] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:46:42,802.802] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,802.802] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:46:42,815.815] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,815.815] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:46:42,828.828] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,828.828] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:46:42,840.840] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,840.840] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:46:42,853.853] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,853.853] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:46:42,865.865] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,865.865] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:46:42,878.878] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,878.878] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:46:42,891.891] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,891.891] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:46:42,904.904] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,904.904] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:46:42,916.916] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:46:42,917.917] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 14:48:26,359.359] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 14:48:26,361.361] ich_representative_project.py -> <module> line:23 [ERROR] : 创建数据库连接池失败:MySQLConnectionPool.__init__() got multiple values for argument 'pool_size'
+[2022-09-07 14:50:49,267.267] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 14:50:49,479.479] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 14:50:49,481.481] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 14:50:49,481.481] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 14:50:49,482.482] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 14:50:49,568.568] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 14:50:49,570.570] ich_representative_project.py -> transform line:90 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 14:50:49,570.570] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 14:50:49,584.584] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,584.584] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 14:50:49,596.596] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,597.597] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 14:50:49,609.609] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,609.609] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 14:50:49,622.622] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,622.622] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 14:50:49,635.635] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,635.635] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 14:50:49,648.648] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,648.648] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 14:50:49,660.660] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,660.660] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 14:50:49,673.673] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,673.673] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 14:50:49,686.686] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,686.686] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 14:50:49,699.699] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,699.699] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 14:50:49,714.714] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,714.714] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 14:50:49,726.726] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,727.727] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 14:50:49,740.740] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,741.741] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 14:50:49,754.754] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,754.754] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 14:50:49,767.767] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,768.768] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 14:50:49,781.781] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,781.781] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 14:50:49,794.794] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,794.794] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 14:50:49,806.806] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,807.807] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 14:50:49,820.820] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,820.820] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 14:50:49,833.833] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,833.833] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 14:50:49,847.847] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,847.847] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 14:50:49,861.861] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,861.861] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 14:50:49,874.874] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,875.875] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 14:50:49,888.888] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,888.888] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 14:50:49,902.902] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,903.903] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 14:50:49,916.916] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,916.916] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 14:50:49,929.929] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,929.929] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 14:50:49,943.943] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,943.943] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 14:50:49,956.956] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,956.956] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 14:50:49,969.969] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,970.970] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 14:50:49,982.982] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,983.983] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 14:50:49,995.995] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:49,996.996] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 14:50:50,008.008] ich_representative_project.py -> prepare line:136 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 14:50:50,008.008] ich_representative_project.py -> prepare line:137 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 14:50:50,009.009] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,009.009] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 14:50:50,022.022] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,022.022] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 14:50:50,035.035] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,035.035] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 14:50:50,048.048] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,048.048] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 14:50:50,061.061] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,061.061] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 14:50:50,073.073] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,074.074] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 14:50:50,086.086] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,086.086] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 14:50:50,099.099] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,099.099] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 14:50:50,112.112] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,112.112] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 14:50:50,125.125] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,125.125] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 14:50:50,138.138] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 14:50:50,139.139] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:12:18,341.341] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:12:18,557.557] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:12:18,558.558] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:12:18,558.558] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:12:18,559.559] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:12:18,705.705] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:12:18,706.706] ich_representative_project.py -> transform line:90 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:12:18,707.707] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:12:18,721.721] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,722.722] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:12:18,734.734] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,735.735] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:12:18,747.747] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,747.747] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:12:18,760.760] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,760.760] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:12:18,773.773] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,774.774] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:12:18,786.786] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,787.787] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:12:18,798.798] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,799.799] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:12:18,811.811] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,812.812] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:12:18,824.824] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,824.824] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:12:18,837.837] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,838.838] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:12:18,851.851] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,851.851] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:12:18,863.863] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,864.864] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:12:18,876.876] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,877.877] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:12:18,889.889] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,889.889] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:12:18,902.902] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,902.902] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:12:18,914.914] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,914.914] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:12:18,927.927] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,927.927] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:12:18,939.939] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,939.939] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:12:18,952.952] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,953.953] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:12:18,965.965] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,965.965] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:12:18,979.979] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,979.979] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:12:18,992.992] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:18,992.992] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:12:19,005.005] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,006.006] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:12:19,018.018] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,019.019] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:12:19,031.031] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,032.032] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:12:19,044.044] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,045.045] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:12:19,057.057] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,058.058] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:12:19,070.070] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,071.071] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:12:19,083.083] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,084.084] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:12:19,096.096] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,096.096] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:12:19,109.109] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,109.109] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:12:19,122.122] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,122.122] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:12:19,134.134] ich_representative_project.py -> prepare line:136 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:12:19,134.134] ich_representative_project.py -> prepare line:137 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:12:19,136.136] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,136.136] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:12:19,148.148] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,149.149] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:12:19,161.161] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,161.161] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:12:19,173.173] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,174.174] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:12:19,187.187] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,188.188] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:12:19,201.201] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,201.201] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:12:19,213.213] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,214.214] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:12:19,226.226] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,227.227] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:12:19,238.238] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,239.239] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:12:19,252.252] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,252.252] ich_representative_project.py -> transform line:103 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:12:19,265.265] ich_representative_project.py -> transform line:119 [INFO] : <<<<<<
+[2022-09-07 15:12:19,265.265] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:18:49,276.276] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:18:49,489.489] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:18:49,490.490] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:18:49,491.491] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:18:49,492.492] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:18:49,635.635] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:18:49,636.636] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:18:49,637.637] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:18:49,651.651] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,651.651] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:18:49,664.664] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,664.664] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:18:49,677.677] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,677.677] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:18:49,690.690] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,691.691] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:18:49,704.704] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,704.704] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:18:49,717.717] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,718.718] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:18:49,730.730] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,731.731] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:18:49,744.744] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,744.744] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:18:49,757.757] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,757.757] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:18:49,770.770] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,770.770] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:18:49,783.783] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,783.783] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:18:49,796.796] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,797.797] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:18:49,809.809] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,809.809] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:18:49,823.823] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,823.823] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:18:49,836.836] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,836.836] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:18:49,849.849] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,849.849] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:18:49,862.862] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,862.862] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:18:49,873.873] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,873.873] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:18:49,887.887] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,887.887] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:18:49,900.900] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,900.900] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:18:49,915.915] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,915.915] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:18:49,928.928] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,929.929] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:18:49,942.942] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,942.942] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:18:49,955.955] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,956.956] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:18:49,969.969] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,970.970] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:18:49,983.983] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,983.983] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:18:49,996.996] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:49,996.996] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:18:50,009.009] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,009.009] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:18:50,023.023] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,023.023] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:18:50,035.035] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,036.036] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:18:50,048.048] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,048.048] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:18:50,061.061] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,061.061] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:18:50,073.073] ich_representative_project.py -> prepare line:137 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:18:50,073.073] ich_representative_project.py -> prepare line:138 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:18:50,075.075] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,075.075] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:18:50,087.087] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,087.087] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:18:50,100.100] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,100.100] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:18:50,113.113] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,113.113] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:18:50,126.126] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,127.127] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:18:50,140.140] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,140.140] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:18:50,153.153] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,153.153] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:18:50,166.166] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,166.166] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:18:50,178.178] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,178.178] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:18:50,191.191] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,191.191] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:18:50,204.204] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:18:50,204.204] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:19:41,570.570] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:19:41,794.794] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:19:41,795.795] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:19:41,795.795] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:19:41,796.796] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:19:41,847.847] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:25:19,039.039] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:25:19,255.255] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:25:19,256.256] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:25:19,256.256] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:25:19,257.257] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:25:19,384.384] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:25:19,386.386] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:25:19,387.387] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:25:19,401.401] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,401.401] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:25:19,414.414] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,415.415] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:25:19,427.427] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,428.428] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:25:19,440.440] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,440.440] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:25:19,453.453] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,453.453] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:25:19,466.466] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,466.466] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:25:19,480.480] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,480.480] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:25:19,493.493] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,493.493] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:25:19,506.506] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,507.507] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:25:19,520.520] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,521.521] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:25:19,533.533] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,533.533] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:25:19,546.546] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,546.546] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:25:19,559.559] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,560.560] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:25:19,572.572] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,573.573] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:25:19,585.585] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,586.586] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:25:19,598.598] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,598.598] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:25:19,611.611] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,611.611] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:25:19,625.625] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,625.625] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:25:19,637.637] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,637.637] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:25:19,649.649] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,650.650] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:25:19,663.663] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,664.664] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:25:19,677.677] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,677.677] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:25:19,691.691] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,691.691] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:25:19,704.704] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,704.704] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:25:19,717.717] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,718.718] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:25:19,731.731] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,732.732] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:25:19,745.745] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,745.745] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:25:19,759.759] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,759.759] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:25:19,773.773] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,774.774] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:25:19,786.786] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,787.787] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:25:19,800.800] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,800.800] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:25:19,813.813] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,814.814] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:25:19,826.826] ich_representative_project.py -> prepare line:137 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:25:19,826.826] ich_representative_project.py -> prepare line:138 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:25:19,827.827] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,828.828] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:25:19,840.840] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,841.841] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:25:19,853.853] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,854.854] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:25:19,866.866] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,867.867] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:25:19,879.879] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,880.880] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:25:19,892.892] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,893.893] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:25:19,905.905] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,906.906] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:25:19,918.918] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,919.919] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:25:19,932.932] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,932.932] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:25:19,944.944] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,945.945] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:25:19,958.958] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:25:19,958.958] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:26:49,486.486] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:26:49,713.713] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:26:49,714.714] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:26:49,714.714] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:26:49,715.715] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:26:49,847.847] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:27:52,519.519] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:27:52,735.735] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:27:52,736.736] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:27:52,737.737] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:27:52,737.737] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:27:52,805.805] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:27:52,806.806] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:27:52,807.807] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:27:52,821.821] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,821.821] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:27:52,834.834] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,834.834] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:27:52,847.847] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,847.847] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:27:52,860.860] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,860.860] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:27:52,872.872] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,873.873] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:27:52,885.885] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,885.885] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:27:52,899.899] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,899.899] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:27:52,911.911] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,912.912] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:27:52,924.924] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,925.925] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:27:52,937.937] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,937.937] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:27:52,950.950] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,950.950] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:27:52,964.964] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,965.965] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:27:52,978.978] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,978.978] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:27:52,991.991] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:52,992.992] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:27:53,005.005] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,006.006] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:27:53,019.019] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,020.020] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:27:53,033.033] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,034.034] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:27:53,047.047] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,047.047] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:27:53,060.060] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,060.060] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:27:53,073.073] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,073.073] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:27:53,087.087] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,088.088] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:27:53,101.101] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,102.102] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:27:53,114.114] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,114.114] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:27:53,127.127] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,127.127] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:27:53,140.140] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,140.140] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:27:53,152.152] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,153.153] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:27:53,166.166] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,166.166] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:27:53,179.179] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,180.180] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:27:53,200.200] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,200.200] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:27:53,213.213] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,214.214] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:27:53,227.227] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,227.227] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:27:53,240.240] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,240.240] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:27:53,253.253] ich_representative_project.py -> prepare line:137 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:27:53,254.254] ich_representative_project.py -> prepare line:138 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:27:53,255.255] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,255.255] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:27:53,267.267] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,269.269] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:27:53,281.281] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,281.281] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:27:53,294.294] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,294.294] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:27:53,307.307] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,307.307] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:27:53,320.320] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,320.320] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:27:53,333.333] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,333.333] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:27:53,345.345] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,346.346] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:27:53,358.358] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,359.359] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:27:53,372.372] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,372.372] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:27:53,385.385] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:27:53,385.385] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:30:08,909.909] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:30:09,135.135] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:30:09,136.136] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:30:09,137.137] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:30:09,138.138] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:30:09,193.193] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:30:09,196.196] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:30:09,196.196] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:30:18,732.732] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:30:18,945.945] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:30:18,946.946] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:30:18,947.947] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:30:18,947.947] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:30:19,013.013] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:30:19,015.015] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:30:19,015.015] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:30:19,029.029] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,030.030] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:30:19,042.042] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,043.043] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:30:19,055.055] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,055.055] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:30:19,069.069] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,069.069] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:30:19,082.082] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,082.082] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:30:19,094.094] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,095.095] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:30:19,107.107] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,107.107] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:30:19,120.120] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,120.120] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:30:19,132.132] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,133.133] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:30:19,145.145] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,146.146] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:30:19,159.159] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,159.159] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:30:19,172.172] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,172.172] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:30:19,185.185] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,186.186] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:30:19,199.199] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,199.199] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:30:19,212.212] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,212.212] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:30:19,225.225] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,225.225] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:30:19,238.238] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,238.238] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:30:19,251.251] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,252.252] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:30:19,265.265] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,265.265] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:30:19,277.277] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,278.278] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:30:19,291.291] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,291.291] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:30:19,304.304] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,304.304] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:30:19,316.316] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,317.317] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:30:19,330.330] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,330.330] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:30:19,343.343] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,343.343] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:30:19,356.356] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,357.357] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:30:19,370.370] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,371.371] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:30:19,383.383] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,383.383] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:30:19,396.396] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,397.397] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:30:19,409.409] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,409.409] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:30:19,422.422] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,422.422] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:30:19,435.435] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,436.436] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:30:19,448.448] ich_representative_project.py -> prepare line:137 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:30:19,448.448] ich_representative_project.py -> prepare line:138 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:30:19,449.449] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,450.450] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:30:19,461.461] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,461.461] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:30:19,475.475] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,475.475] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:30:19,487.487] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,488.488] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:30:19,501.501] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,501.501] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:30:19,513.513] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,514.514] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:30:19,527.527] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,527.527] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:30:19,540.540] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,540.540] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:30:19,552.552] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,553.553] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:30:19,565.565] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,566.566] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:30:19,579.579] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:30:19,579.579] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:30:22,230.230] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:30:22,453.453] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:30:22,454.454] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:30:22,455.455] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:30:22,455.455] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:30:22,491.491] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:30:22,494.494] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:30:22,494.494] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:33:24,241.241] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:33:24,471.471] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:33:24,472.472] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:33:24,473.473] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:33:24,475.475] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:33:24,514.514] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:33:24,517.517] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:33:24,517.517] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:49:12,215.215] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:49:12,445.445] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:49:12,447.447] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:49:12,447.447] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:49:12,448.448] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:49:12,535.535] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:49:12,538.538] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:49:12,539.539] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:51:36,909.909] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:51:37,128.128] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:51:37,130.130] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:51:37,130.130] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:51:37,131.131] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:51:37,214.214] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:51:37,216.216] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:51:37,216.216] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
+[2022-09-07 15:51:37,230.230] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,230.230] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:2, name:惠阳皆歌
+[2022-09-07 15:51:37,243.243] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,243.243] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:3, name:舞火狗
+[2022-09-07 15:51:37,256.256] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,256.256] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:4, name:小金口麒麟舞
+[2022-09-07 15:51:37,269.269] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,269.269] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:5, name:凤舞
+[2022-09-07 15:51:37,282.282] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,282.282] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:6, name:吉隆元宵舞龙
+[2022-09-07 15:51:37,296.296] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,296.296] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:7, name:龙形拳
+[2022-09-07 15:51:37,309.309] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,309.309] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:8, name:惠州李家拳
+[2022-09-07 15:51:37,322.322] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,322.322] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:9, name:虎头花灯
+[2022-09-07 15:51:37,335.335] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,335.335] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:10, name:惠州剪纸
+[2022-09-07 15:51:37,348.348] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,348.348] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:11, name:黄金酥丸制作技艺
+[2022-09-07 15:51:37,361.361] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,362.362] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:12, name:东江客家菜
+[2022-09-07 15:51:37,375.375] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,375.375] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:13, name:淡水客家凉帽制作技艺
+[2022-09-07 15:51:37,388.388] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,388.388] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:14, name:秋长八月豆制作技艺
+[2022-09-07 15:51:37,401.401] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,401.401] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:15, name:沥林碌鹅制作技艺
+[2022-09-07 15:51:37,414.414] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,414.414] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:16, name:罗浮山百草油制作技艺
+[2022-09-07 15:51:37,427.427] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,427.427] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:17, name:罗浮山葛洪内丹养生
+[2022-09-07 15:51:37,440.440] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,440.440] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:18, name:九龙峰祖庙庙会
+[2022-09-07 15:51:37,455.455] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,455.455] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:19, name:鲤鱼舞
+[2022-09-07 15:51:37,468.468] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,468.468] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:20, name:周田二圣宫庙会
+[2022-09-07 15:51:37,481.481] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,481.481] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:21, name:石湾端午龙舟习俗
+[2022-09-07 15:51:37,495.495] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,495.495] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:22, name:沙田舞麒麟习俗
+[2022-09-07 15:51:37,508.508] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,508.508] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:23, name:瑶族女儿成年礼
+[2022-09-07 15:51:37,521.521] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,521.521] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:24, name:惠阳沙坑叶氏祭祀习俗
+[2022-09-07 15:51:37,534.534] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,534.534] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:25, name:平潭永宁庵庙会
+[2022-09-07 15:51:37,547.547] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,547.547] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:26, name:芦洲南瓜节
+[2022-09-07 15:51:37,560.560] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,560.560] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:27, name:大笼糍制作技艺
+[2022-09-07 15:51:37,573.573] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,573.573] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:28, name:大亚湾渔家婚嫁
+[2022-09-07 15:51:37,586.586] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,586.586] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:29, name:大亚湾区渔民朝拜仪式
+[2022-09-07 15:51:37,599.599] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,600.600] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:30, name:福田舞春牛
+[2022-09-07 15:51:37,613.613] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,613.613] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:31, name:惠州邓氏神农凉茶制作技艺
+[2022-09-07 15:51:37,626.626] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,627.627] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:32, name:惠州莫家拳
+[2022-09-07 15:51:37,640.640] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,640.640] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:33, name:惠州书画装裱制作技艺
+[2022-09-07 15:51:37,653.653] ich_representative_project.py -> prepare line:137 [WARNING] : 字典项中不存在该字典值，【字典类型】: ich_fwzwhycpddj；【字典值】：惠州
+[2022-09-07 15:51:37,653.653] ich_representative_project.py -> prepare line:138 [WARNING] : 特殊处理，将 惠州 替换会 市级
+[2022-09-07 15:51:37,654.654] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,655.655] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:34, name:惠州咏春拳
+[2022-09-07 15:51:37,667.667] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,668.668] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:35, name:客家九大碗烹饪技艺
+[2022-09-07 15:51:37,680.680] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,680.680] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:36, name:客家娘酒酿制技艺
+[2022-09-07 15:51:37,694.694] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,694.694] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:37, name:客家酿豆腐烹饪技艺
+[2022-09-07 15:51:37,707.707] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,707.707] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:38, name:良井甘泉古寺祈福习俗
+[2022-09-07 15:51:37,720.720] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,720.720] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:39, name:林村盒箩制作技艺
+[2022-09-07 15:51:37,733.733] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,733.733] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:40, name:龙华大鼓
+[2022-09-07 15:51:37,746.746] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,746.746] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:41, name:龙门年饼制作技艺
+[2022-09-07 15:51:37,758.758] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,759.759] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:42, name:龙门农民画
+[2022-09-07 15:51:37,771.771] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,772.772] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:43, name:龙门山歌
+[2022-09-07 15:51:37,785.785] ich_representative_project.py -> transform line:120 [INFO] : <<<<<<
+[2022-09-07 15:51:37,785.785] ich_representative_project.py -> main line:65 [INFO] : 提交 con_to 事务
+[2022-09-07 15:57:18,014.014] ich_representative_project.py -> <module> line:15 [INFO] : 创建数据库连接池
+[2022-09-07 15:57:18,240.240] ich_representative_project.py -> main line:45 [INFO] : 创建数据库连接对象: con_from, con_to, con_okayxx, con_okdc_communal
+[2022-09-07 15:57:18,242.242] ich_representative_project.py -> main line:54 [INFO] : 开启 con_to 事务
+[2022-09-07 15:57:18,242.242] ich_representative_project.py -> main line:55 [INFO] : 创建数据库指针对象: cursor_from, cursor_to, cursor_okayxx, cursor_okdc_communal
+[2022-09-07 15:57:18,243.243] ich_representative_project.py -> clean_data line:38 [INFO] : 清理数据库：ich_representative_project
+[2022-09-07 15:57:18,280.280] ich_representative_project.py -> transform line:77 [INFO] : 惠州项目表 sys_hr_organ(系统部门表), 转换数据为数字和城区的字典：3:惠阳区, 2:惠城区
+[2022-09-07 15:57:18,284.284] ich_representative_project.py -> transform line:91 [INFO] : 惠州项目表 tbl_data_culturalheritage(非物质文化遗产)，查询出所有的非物质文化遗产，共 43 条记录
+[2022-09-07 15:57:18,284.284] ich_representative_project.py -> transform line:104 [INFO] : >>>>>> 开始处理数据: id:1, name:惠东渔歌
