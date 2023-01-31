@@ -42,8 +42,40 @@
 #     print()
 
 
-import star
+# import star
+# print(star.hi)
+# star.pstar()
 
-print(star.hi)
+# cars = ['audi', 'bmw', 'subaru', 'toyota']
+# for item in cars:
+#     if item == 'bmw':
+#         print(item.upper())
+#     else:
+#         print(item.capitalize())
 
-star.pstar()
+
+# available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese']
+# requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
+# for item in requested_toppings:
+#     if item in available_toppings:
+#         print('yes')
+#     else:
+#         print('no')
+
+
+# def love(f):
+#     favorite_languages = {'jen': 'python', 'sarch': 'c', 'edward': 'ruby', 'phil': 'python'}
+#
+#     for item in f:
+#         if item in favorite_languages:
+#             print(item, ':', favorite_languages[item])
+#
+#
+# friends = ['phil', 'sarch']
+# love(friends)
+# pizza = {'crust':'thick', 'toppings':['mushrooms', 'extra cheese']}
+# for item in pizza['toppings']:
+#     print(item)
+pi = {'a': '1', 'b': '2'}
+for item in pi:
+    print(pi[item])
