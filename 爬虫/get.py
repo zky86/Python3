@@ -16,6 +16,7 @@ __base_url = 'http://www.papercn.cn'
 __num = 1
 
 
+# 创建多层文件夹
 def mkdir(path):
     # 去除首尾的空格
     path = path.strip()
@@ -37,7 +38,6 @@ def mkdir(path):
 
 # 爬取数据
 def get_information(page=0):
-    # print('页码', page)
     url = __base_list + str(page + 1) + '.html'
     headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
@@ -47,14 +47,11 @@ def get_information(page=0):
     out = soup.find("div", attrs={"class": "liebiao"})
     datas = out.find_all('li')
     datas_list = []
-    # print(datas)
     try:
         for data in datas:
-            # print(data)
             title = data.find('a').text
             url = data.find('a').attrs['href']
             detail_url = __base_url + str(url)
-            # print(detail_url)
             detail_r = requests.get(detail_url, headers=headers)
             detail_soup = BeautifulSoup(detail_r.content.decode("utf-8"), "html.parser")
             for items in detail_soup.findAll('a'):
@@ -65,24 +62,18 @@ def get_information(page=0):
             for i, img in enumerate(all_img):
                 img_url = __base_url + img["src"]
                 path = 'd:' + img["src"]  # 完整路径，包括图片名
-                # print(path)
-                # img_name = img["src"].split('/')[-1] # 获取最后一个图片名
+                img_name = img["src"].split('/')[-1]  # 获取最后一个图片名
                 arr = path.split('/')
                 arr.pop()
                 local_path = '/'.join(arr)  # 本地存储路径，没有图片名
-                # print(local_path)
                 # 判断目录是否存在，如果不存在建立目录
                 if not os.path.exists(path):
                     mkdir(local_path)
-                    # d = 'D:\\uploads\\'
-                    # os.mkdir(d)
-                # 通过requests.get获得图片
-                res = requests.get(img_url)
-                # print(r)
+                res = requests.get(img_url)  # 通过requests.get获得图片
                 res.raise_for_status()
                 with open(path, 'wb') as file_obj:
                     file_obj.write(res.content)
-                    print("保存成功")
+                    print(img_name + " 图片保存成功")
                 # urlretrieve(img_url, f"./imgs/swiper-{i}.jpg")
             # content = detail_soup.find("div", attrs={"class": "weizhi"})
             # title = data.find('a', attrs={"class": "truetit"}).text.split()[0]
@@ -105,10 +96,10 @@ if __name__ == "__main__":
         cur = connection.cursor()  # 创建游标
         for page in range(__num):
             datas = get_information(page)
-            # for data in datas:
-            #     # 写入数据库
-            #     cur.execute("INSERT INTO list (title, content) VALUES(%s,%s)", (data['title'], data['content']))
-            # print("正在爬取第%s页" % (page + 1))
+            for data in datas:
+                # 写入数据库
+                cur.execute("INSERT INTO list (title, content) VALUES(%s,%s)", (data['title'], data['content']))
+            print("正在爬取第%s页" % (page + 1))
             time.sleep(1)
     except pymysql.Error as e:
         print('数据库错误')
