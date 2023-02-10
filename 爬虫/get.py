@@ -67,13 +67,15 @@ def get_information(page=0):
                 arr.pop()
                 local_path = '/'.join(arr)  # 本地存储路径，没有图片名
                 # 判断目录是否存在，如果不存在建立目录
-                if not os.path.exists(path):
-                    mkdir(local_path)
-                res = requests.get(img_url)  # 通过requests.get获得图片
-                res.raise_for_status()
-                with open(path, 'wb') as file_obj:
-                    file_obj.write(res.content)
-                    print(img_name + " 图片保存成功")
+                # if not os.path.exists(path):
+                #     mkdir(local_path)
+                # res = requests.get(img_url)  # 通过requests.get获得图片
+                # res.raise_for_status()
+                # 图片写入
+                # with open(path, 'wb') as file_obj:
+                #     file_obj.write(res.content)
+                #     print(img_name + " 图片保存成功")
+
                 # urlretrieve(img_url, f"./imgs/swiper-{i}.jpg")
             # content = detail_soup.find("div", attrs={"class": "weizhi"})
             # title = data.find('a', attrs={"class": "truetit"}).text.split()[0]
